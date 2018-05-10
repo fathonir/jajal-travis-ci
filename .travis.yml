@@ -5,4 +5,8 @@ php:
 
 sudo: required
 
-script: php index.php
+install:
+  - pear install PHP_CodeSniffer
+
+script: 
+  - phpcs index.php
