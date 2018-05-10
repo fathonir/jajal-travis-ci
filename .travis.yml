@@ -4,3 +4,5 @@ php:
   - 7.1
 
 sudo: required
+
+script: php fathonir/jajal-travis-ci/index.php
